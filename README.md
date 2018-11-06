@@ -3,7 +3,7 @@
 ## Objectives
 
 * Explain the order & structure of join statements
-* Write basic SQL joins
+* Write basic SQL joins: `one-to-many`
   - INNER join
   - LEFT join
   - FULL OUTER join
