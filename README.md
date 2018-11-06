@@ -18,6 +18,13 @@
 3. Run joins.sql file while connected to db:
   - `\i joins.sql`
 
+  Read up on syntax for how to execute INNER JOIN going from 'owner' to 'pet'
+```sql
+SELECT * FROM owner
+INNER JOIN pet
+ON owner.id = pet.owner_id;
+```
+
 ## Resources
 
 * [Learn - Joins Syntax](https://github.com/gSchool/sql-curriculum/blob/master/Joins.md#joins---syntax)
